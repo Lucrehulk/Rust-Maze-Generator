@@ -14,7 +14,7 @@ The tunnel maze works by creating pathways in a world that is originally set to 
 <img width="756" height="759" alt="image" src="https://github.com/user-attachments/assets/e473c6b7-a7a1-4429-b8bb-a4f91d8101d7" />
 
 Branch Maze:
-Similar to the tunnel maze, the branch maze cuts pathways into a world initially set as all walls. However, unlike the tunnel maze, the branch maze uses "branches" to do this. Branches have a start point, but no definite end point--only a length. When a branch is generated, the tiles along it have a chance to "sway" (go left or right for vertical branches, or up and down for horizontal branches). Like the tunnel maze, once a certain portion of the world has become open tiles (based on the weight parameter), the process will stop.
+Similar to the tunnel maze, the branch maze cuts pathways into a world initially set as all walls. However, unlike the tunnel maze, the branch maze uses "branches" to do this. Branches have a start point, but no definite end point--only a length. When a branch is generated, the tiles along it have a chance to "sway" (go left or right for vertical branches, or up and down for horizontal branches). Like the tunnel maze, once a certain portion of the world has become open tiles (based on the weight parameter), the process will stop. An option to fill 1x1 holes also exists for this maze generation.
 <img width="756" height="758" alt="image" src="https://github.com/user-attachments/assets/f49a9c3e-e0d7-400e-b5bd-af95d6cf3782" />
 
 Random Tunnel Maze:
