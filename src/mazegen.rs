@@ -1,7 +1,7 @@
 use rand::Rng;
 use rand::rngs::ThreadRng;
 use rand::seq::IteratorRandom;
-use std::collections::{HashSet, HashMap};
+use std::collections::HashSet;
 
 fn calculate_tiles_distance(tilei: [usize; 2], tilef: [usize; 2]) -> f32 {
     let dx = if tilef[0] > tilei[0] {
