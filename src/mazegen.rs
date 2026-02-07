@@ -53,7 +53,7 @@ pub struct MazeManager {
 }
 
 impl MazeManager {
-    fn instantiate_map(width: usize, height: usize, fill: bool) -> MazeManager {
+    pub fn instantiate_map(width: usize, height: usize, fill: bool) -> MazeManager {
         let mut true_tiles = HashSet::new();
         let mut false_tiles = HashSet::new();
         if fill {
